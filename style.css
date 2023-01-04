@@ -110,7 +110,6 @@ img {
   border: none;
   margin-right: 0.5rem;
   overflow: hidden;
-  translate: ;
 }
 
 .study-container {
@@ -234,7 +233,7 @@ img {
 
 @media screen and (max-width: 500px) {
   body {
-    height: 1700px;
+    height: 1100px;
   }
   main {
     display: grid;
@@ -242,7 +241,9 @@ img {
     grid-template-rows: repeat(8, 200px);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
+    margin-top: 35rem;
   }
+
   img {
     border: 2px solid white;
     border-radius: 50%;
@@ -256,7 +257,6 @@ img {
   .user {
     display: flex;
     justify-content: center;
-
     background-color: hsl(246, 80%, 60%);
     border-radius: 10px;
     padding: 1rem 1rem 0 1rem;
@@ -281,7 +281,7 @@ img {
     color: hsl(235, 45%, 61%);
     padding: 2.5rem 1rem 1rem 1.5rem;
     background-color: hsl(235, 46%, 20%);
-    transform: translateY(-4rem);
+    transform: translateY(-47rem);
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -335,6 +335,7 @@ img {
 
   .study-container {
     position: relative;
+    transform: translateY(-11rem);
   }
 
   .study-heading {
@@ -346,13 +347,14 @@ img {
 
   .study {
     position: absolute;
-    top: 2rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
 
   .play-container {
     position: relative;
+    transform: translateY(-6.7rem);
   }
 
   .play-heading {
@@ -364,13 +366,14 @@ img {
 
   .play {
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
 
   .work-container {
     position: relative;
+    transform: translateY(-2.5rem);
   }
 
   .work-heading {
@@ -382,13 +385,14 @@ img {
 
   .work {
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
 
   .exercise-container {
     position: relative;
+    transform: translateY(-28rem);
   }
 
   .exercise-heading {
@@ -400,13 +404,14 @@ img {
 
   .exercise {
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
 
   .social-container {
     position: relative;
+    transform: translateY(-32rem);
   }
 
   .social-heading {
@@ -418,13 +423,14 @@ img {
 
   .social {
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
 
   .self-container {
     position: relative;
+    transform: translateY(-36rem);
   }
 
   .self-heading {
@@ -447,7 +453,7 @@ img {
 
   .self-care {
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 0;
     right: 0;
   }
